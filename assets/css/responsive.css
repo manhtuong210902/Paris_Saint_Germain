@@ -1,0 +1,117 @@
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .home-player__item{
+        height: 320px;
+    } 
+    .home-player__item-num{
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+    }  
+    .home-player__item-name{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }   
+}
+
+/* table && mobile */
+@media screen and (max-width: 1023px) {
+    .hide-on-mobile-table{
+        display: none;
+    }
+    :root{
+        --header-height: 60px !important;
+    }
+    .header-logo-img{
+        width: 50px;
+        height: 50px;
+    }
+    .navbar-center{
+        height: var(--header-height);
+        margin: 0;
+        padding: 0 5px;
+    }
+    .container__navbar-item-link{
+        font-size: 1.6rem;
+    }
+    .home-sponsors{
+        padding: 10px 0;
+    }
+    .navbar-center__list-toggle.active span{
+        display: none;
+    }
+}
+
+/* table */
+@media screen and (min-width: 549px) and (max-width: 1023px) {
+    .hide-on-table{
+        display: none;
+    }
+    .home-sponsor__item-img{
+        height: 35px;
+    }
+    .footer__sponsor-img{
+        height: 35px;
+    }
+    .slider{
+        padding-top: 50%;
+    }
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 550px) and (max-width: 740px) {
+    .home-player__item{
+        height: 320px;
+    } 
+}
+
+/* mobile */
+@media screen and (max-width: 549px) {
+    .hide-on-mobile{
+        display: none;
+    }
+    .home-filter{
+        justify-content: space-between;
+    }
+    .home-players__name-position{
+        text-align: center;
+    }
+    .home-players{
+        padding: 0 40px;
+    }
+    .home-sponsor__item-img{
+        height: 25px;
+    }
+    .footer__sponsor-img{
+        height: 25px;
+    }
+    .sidebar__menu-inner{
+        width: 320px;
+        max-width: calc(100vw - 70px);
+        margin: 0;
+    }
+    .sidebar__menu-inner.is-open{
+        animation: slideRight forwards 0.4s;
+    }
+    .slider{
+        padding-top: 55%;
+    }
+    .home-player__item{
+        height: 230px;
+    }
+    .home-player__item-wrapper{
+        padding: 10px;
+    }
+    .home-player__item-num{
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+    }  
+    .home-player__item-name{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+    .sidebar__menu-inner{
+        padding: 40px 20px;
+    } 
+    .hide__nav-side{
+        animation: slideLeft 0.4s forwards;
+    }
+}
